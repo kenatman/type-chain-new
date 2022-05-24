@@ -1,6 +1,3 @@
-class Block {
-  constructor(private data: string) {}
-  add(term: string) {
-    return "added";
-  }
-}
+import { init, exit } from "myPackage";
+
+init({ url: "XXX" });
