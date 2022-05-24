@@ -1,0 +1,8 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ES6",
+    "lib": ["ES6", "DOM"] // 어떤 환경에서 타입스크립트를 실행시킬 것인지. DOM은 브라우저를 말함.
+  }
+}
